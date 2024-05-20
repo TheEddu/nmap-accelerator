@@ -43,17 +43,26 @@ Para usar o Nmap Accelerator, siga estas etapas:
 Ao executar o script Python, é exibido exemplos de parâmetros comuns, útil para não precisar pesquisar por parâmetros, importante ressaltar que essas são apenas algumas opções, e o script não se restringe a elas somente.
 ![Inicio da execução e exibição dos parâmetros](pictures/1-inicio-parametros.png)
 
+__________________________________________________________________
+
 Logo em seguida, temos a opção de inserir scripts, caso o usuário queira, basta usar "s", e aparecerá uma lista com alguns exemplos de script para usar, para, novamente, não precisar ir pesquisar, e então, basta digitar o nome do script.
 ![Exibição dos scripts](pictures/2-scripts.png)
+
+__________________________________________________________________
 
 Então, deve-se inserir o ip alvo (que nesse caso, é de uma Room do TryhackMe, dstalhe que eu já estou conectado a VPN para conseguir acessar as Rooms do TryhackMe), então a opção de inserir as portas, podendo usar apenas uma, várias separadas por virgula, ou um intervalo de portas, nesse caso escolhi não filtrar por portas especificas, por isso só usei "n".
 Após isso, temos as opções de saídas, ou seja, um arquivo com o resultado do scan, nesse caso escolhi salvar um arquivo em formato greppable, por isso usei "s" e depois "oG", depois deve-se inserir o nome do arquivo, sem extensões, nesse caso escolhi "test" e depois deve-se escolher se o arquivo terá somente ip, porta, ambos ou se não usará filtro, nesse caso escolhi "ambos"
 Então o comando será executado, note que o nome do arquivo aparece como "test.gnmap", mas ao fim do programa haverá somente o resultado filtrado com a extensão ".txt".
 ![Definição de Ip, porta, saida e execução](pictures/3-ip-porta-output-execução.png)
+
 OBS: Esse exemplo se aplica somente caso o usuário escolha oG, caso escolha uma outra opção, será diferente e mais simples.
+
+__________________________________________________________________
 
 Por fim, após o script ser executado pode-se visualizar o arquivo e seus conteudos.
 ![Exibição dos resultados](pictures/4-resultados.png)
+
+__________________________________________________________________
 
 Recapitulando, esse exemplo é apenas uma possibilidade, pode-se especificar as portas, usar ou não scripts, salvar as saídas de outras formas, ou apenas visualizar sem opção de saída.
 
