@@ -36,6 +36,16 @@ Para usar o Nmap Accelerator, siga estas etapas:
 
 3. **Siga as Instruções:** Siga as instruções fornecidas pelo script para selecionar parâmetros de varredura, especificar o IP de destino, definir portas de interesse e escolher opções de saída.
 
+## Exemplo de uso
+
+![Inicio da execução e exibição dos parâmetros](pictures/1-inicio-parametros.png)
+
+![Exibição dos scripts](pictures/2-scripts.png)
+
+![Definição de Ip, porta, saida e execução](pictures/3-ip-porta-output-execução.png)
+
+![Exibição dos resultados](pictures/4-resultados.png)
+
 4. **Analise os Resultados:** Após a conclusão da varredura, analise os resultados salvos nos arquivos de saída especificados.
 
 ## AVISO LEGAL/DISCLAIMER E AMBIENTE DE TESTES
